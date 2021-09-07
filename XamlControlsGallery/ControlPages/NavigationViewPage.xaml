@@ -275,18 +275,18 @@
                                         PaneDisplayMode="Left" ExpandedModeThresholdWidth="500"
                                         IsTabStop="False">
                 <muxc:NavigationView.MenuItems>
-                    <muxc:NavigationViewItem Content="Menu Item1" Tag="SamplePage1" x:Name="SamplePage1Item" >
+                    <muxc:NavigationViewItem Content="Menu Item1" Tag="SamplePage1" x:Name="SamplePage1Item" CanDrag="True">
                         <muxc:NavigationViewItem.Icon>
                             <SymbolIcon Symbol="Play"/>
                         </muxc:NavigationViewItem.Icon>
                     </muxc:NavigationViewItem>
                     <muxc:NavigationViewItemHeader Content="Actions"/>
-                    <muxc:NavigationViewItem Content="Menu Item2" Tag="SamplePage2" x:Name="SamplePage2Item" SelectsOnInvoked="True">
+                    <muxc:NavigationViewItem Content="Menu Item2" Tag="SamplePage2" x:Name="SamplePage2Item" SelectsOnInvoked="True" CanDrag="True">
                         <muxc:NavigationViewItem.Icon>
                             <SymbolIcon Symbol="Save"/>
                         </muxc:NavigationViewItem.Icon>
                     </muxc:NavigationViewItem>
-                    <muxc:NavigationViewItem Content="Menu Item3" Tag="SamplePage3" x:Name="SamplePage3Item">
+                    <muxc:NavigationViewItem Content="Menu Item3" Tag="SamplePage3" x:Name="SamplePage3Item" CanDrag="True">
                         <muxc:NavigationViewItem.Icon>
                             <SymbolIcon Symbol="Refresh"/>
                         </muxc:NavigationViewItem.Icon>
